@@ -18,14 +18,14 @@ const Home = () => {
         {products.map((item) => (
           <div
             key={item.id}
-            className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 flex flex-col items-center"
+            className="bg-white dark:bg-gray-400 rounded-xl shadow-md p-4 flex flex-col items-center"
           >
             <img
               src={item.image}
               alt={item.title}
               className="w-[150px] h-[200px] object-contain mb-4"
             />
-            <h4 className="text-sm font-semibold text-center mb-2 text-gray-800 dark:text-gray-100 line-clamp-2">
+            <h4 className="text-sm font-semibold text-center mb-2 text-gray-600 dark:text-gray-100 line-clamp-2">
               {item.title}
             </h4>
             <h5 className="text-lg font-bold text-blue-600 dark:text-blue-300 mb-2">
