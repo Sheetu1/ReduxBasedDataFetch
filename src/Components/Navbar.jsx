@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="bg-indigo-600 p-5 shadow-md">
       <div className="flex items-center justify-between max-w-screen-xl mx-auto">
-        <span className="text-white text-2xl font-semibold">Redux Tutorials</span>
+        <span className="text-white text-2xl font-semibold">Add To Cards</span>
 
         <div className="flex items-center space-x-6">
           <Link className="text-white hover:text-gray-300 transition duration-200" to={"/"}>
